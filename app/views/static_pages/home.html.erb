@@ -4,4 +4,27 @@
   <h2>
     Where producers make music
   </h2>
+  <p>
+    <script type="text/javascript">
+      //soundManager.url: '/soundmanager2/';
+      //soundManager.useHTML5Audio = true;
+      //soundManager.debugMode = false;
+      soundManager.setup({
+        url: '/soundmanager2/',
+        onready: function() {
+          var mySound = soundManager.createSound({
+            id: 'aSound',
+            url: '/songs/one.mp3',
+            onload: function() { alert("song loaded!", this); }
+          });
+         
+          mySound.play();
+        },
+    
+        ontimeout: function() {
+
+        }
+      });
+    </script>
+  </p>
 </div>

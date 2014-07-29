@@ -117,6 +117,7 @@ GEM
       multi_json (~> 1.0)
       rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
+    soundmanager2-rails (2.97.20131201)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -159,6 +160,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.2)
   sdoc
   selenium-webdriver (= 2.35.1)
+  soundmanager2-rails (= 2.97.20131201)
   sprockets (= 2.11.0)
   sqlite3
   turbolinks (= 1.1.1)
